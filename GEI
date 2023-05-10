@@ -1,0 +1,15 @@
+import matplotlib.pyplot as plt
+
+# Datos de ejemplo
+paises = ['EE. UU.', 'China', 'India', 'Rusia', 'Japón']
+emisiones = [5000, 10000, 3000, 1500, 1200]
+
+# Crear el gráfico de barras
+plt.bar(paises, emisiones, color=['blue', 'red', 'green', 'purple', 'orange'])
+
+# Etiquetas y títulos
+plt.xlabel('Países')
+plt.ylabel('Emisiones de GEI (millones de toneladas de CO2 equivalente)')
+plt.title('Emisiones de GEI por país')
+
+# Mostrar el gráfico
